@@ -20,6 +20,10 @@ Todo está controlado
 **Desventajas**
 No es tan ágil
 
+![](./Images/git-model.png)
+
+Documentación [aquí](https://nvie.com/posts/a-successful-git-branching-model/)
+
 ## Github flow
 Pensada para equipos que hacen despliegues de forma regular. Se basa en la creación de pull request que luego serán discutidas para que se integren en la rama principal.
 
@@ -34,6 +38,10 @@ Se integra perfectamente con todo tipo de controles de revisión automatizada.
 **Desventaja**
 Vas a tardar un poquito, esperar el feedback de tus compañeros para poder integrar los cambios a producción.
 
+![](./Images/github-flow.png)
+
+Documentación [aquí](https://docs.github.com/es/get-started/quickstart/github-flow)
+
 ## Trunk Based Development
 Esta estrategia es la más antigua. Se basa en que el mayor tiempo de desarrollo se concentra en una sola rama llamada trunk (tronco), que correspondería a la rama principal de las estrategias anteriores.
 
@@ -46,6 +54,10 @@ Deben existir redes de seguridad automatizadas que puedan deshacer un pase a pro
 - Menos fricción
 - Menos trabajo manual
 
+![](./Images/trunk_based_development.png)
+
+Documentación [aquí](https://trunkbaseddevelopment.com)
+
 ## Ship/Show/Ask
 Despliega/Muestra/Pregunta
 
@@ -56,3 +68,7 @@ Con esto se podrás realizar cambios rápidamente y pedir feedback si lo conside
 - Ship: fusionas tus cambios rápidamente con la rama principal sin revisión
 - Show: es abrir una petición de cambios para que sean revisados
 - Ask: abre una PR para iniciar una discusión sobre los cambios antes de fusionarlos.
+
+![](./Images/ship-show-ask.png)
+
+Documentación [aquí](https://martinfowler.com/articles/ship-show-ask.html)
