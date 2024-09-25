@@ -40,7 +40,7 @@ Vas a tardar un poquito, esperar el feedback de tus compañeros para poder integ
 
 ![](./Images/github-flow.png)
 
-Documentación [aquí](https://docs.github.com/es/get-started/quickstart/github-flow)
+Documentación [aquí](https://docs.github.com/es/get-started/quickstart/github-flow) | Documentación Interna en FR [aquí](./githubFlow/README.md) 
 
 ## Trunk Based Development
 Esta estrategia es la más antigua. Se basa en que el mayor tiempo de desarrollo se concentra en una sola rama llamada trunk (tronco), que correspondería a la rama principal de las estrategias anteriores.
